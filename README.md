@@ -8,7 +8,7 @@ JAVA: https://www.oracle.com/ru/java/technologies/javase-downloads.html
 
 MAVEN: http://maven.apache.org/
 
-Firstly you need to launch app:
+### Firstly you need to launch app: ###
 
 1. Open cmd.
 
@@ -27,7 +27,7 @@ after that execute this command.
 ```
 java -jar phonebook.jar
 ```
-After launching app, you can launch tests:
+### After launching app, you can launch tests: ###
 
 4. Open new cmd instance (do not close old one).
 
@@ -44,7 +44,7 @@ cd C:\folder\MyTest
 mvn clean install
 ```
 
-####OR####
+#### OR ####
 
 
 You can run tests in Intellij IDEA
