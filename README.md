@@ -1,6 +1,6 @@
 # TestQAInternship
 
-#### Tests launch ####
+### Tests launch ###
 
 You'll need java 11 or higher, Maven 3.6.3
 
@@ -8,7 +8,7 @@ JAVA: https://www.oracle.com/ru/java/technologies/javase-downloads.html
 
 MAVEN: http://maven.apache.org/
 
-### Firstly you need to launch app: ###
+#### Firstly you need to launch app: ####
 
 1. Open cmd.
 
@@ -27,11 +27,11 @@ after that execute this command.
 ```
 java -jar phonebook.jar
 ```
-### After launching app, you can launch tests: ###
+#### After launching app, you can launch tests: ####
 
-4. Open new cmd instance (do not close old one).
+1. Open new cmd instance (do not close old one).
 
-5. In cmd to folder with tests:
+2. In cmd to folder with tests:
 
     write proper path to folder with MyTest project for example:
 ```
@@ -39,7 +39,7 @@ cd C:\folder\MyTest
 ```
     after that execute this command.
 
-6. Execute a command:
+3. Execute a command:
 ```
 mvn clean install
 ```
@@ -49,7 +49,7 @@ mvn clean install
 
 You can run tests in Intellij IDEA
 
-1. Launch phonebook.jar (steps 1,2,3 in first instruction)
+1. Launch phonebook.jar (Example in first instruction)
 
 2. Open folder MyTest as idea project
 
@@ -58,7 +58,7 @@ You can run tests in Intellij IDEA
  mvn clean install 
 ```
 
-#### Test Reports ####
+### Test Reports ###
 
 Reports will be generated automaticly after tests complition and you can find it in the "target" folder inside "MyTest" folder:
 ```
